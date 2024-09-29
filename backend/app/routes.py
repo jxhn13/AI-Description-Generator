@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
 import openai
 
-openai.api_key = 'sk-proj-FUZv4I98ozyRZ5XGBCp6T3BlbkFJkv41JX2dtRXMd9dMYu58'
+OPENAI_API_KEY=your_actual_api_key_here
+
 
 api = Blueprint('api', __name__)
 

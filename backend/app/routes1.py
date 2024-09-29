@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
 import google.generativeai as genai
 
-GEMINI_API_KEY = 'AIzaSyBTr8Rg4FuVQq-7PqrdSHhVrVmoaBcao8w'
+Gemini_API_KEY=your_actual_api_key_here
+
 genai.configure(api_key=GEMINI_API_KEY)
 
 api = Blueprint('api', __name__)
